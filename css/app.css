@@ -1,0 +1,708 @@
+@font-face {
+  font-family: Avenir-Roman;
+  src: url("../assets/fonts/Avenir-Roman.ttf") format("truetype");
+}
+@font-face {
+  font-family: Avenir-Medium;
+  src: url("../assets/fonts/Avenir-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: Avenir-Heavy;
+  src: url("../assets/fonts/Avenir-Heavy.ttf") format("truetype");
+  font-weight: 900;
+}a
+@font-face {
+  font-family: Avenir-Black;
+  src: url("../assets/fonts/Avenir-Black.ttf") format("truetype");
+  font-weight: 900;
+}
+@font-face {
+  font-family: Avenir;
+  src: url("../assets/fonts/Avenir-Book.ttf");
+}
+/* Helpers classes */
+body {
+  font-family: Avenir;
+}
+html {
+  scroll-behavior: smooth;
+}
+.form-control {
+  border-radius: 0rem;
+}
+.scrolled {
+  background: red;
+}
+.form-control:focus {
+  box-shadow: none !important;
+  border-color: #36e2a3 !important;
+}
+.btn {
+  border-radius: 0rem;
+}
+.btn-primary {
+  background-color: #051010;
+  border-color: #051010;
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  padding: 5px 30px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  height: 56px;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #051010;
+  border-color: #051010;
+  box-shadow: none !important;
+}
+.btn-primary:visited,
+.btn-primary:active {
+  background-color: #051010 !important;
+  border-color: #051010 !important;
+}
+.mt100 {
+  margin-top: 100px;
+}
+.address-email {
+  flex-grow: 1 !important;
+  display: grid !important;
+}
+
+/* navbar classes */
+.navbar_app {
+  height: 110px;
+}
+.navbar_app .navbar {
+  padding: 0rem 0rem;
+}
+
+.navbar_app .navbar-brand {
+  margin-top: 46px;
+  margin-bottom: 20px;
+}
+.navbar_app .navbar-brand img {
+  width: 129.7px;
+  height: 30.8px;
+  object-fit: contain;
+}
+
+.navbar_app .navbar-nav .nav-link {
+  text-decoration: underline;
+  height: 22px;
+  margin-left: 50px;
+  font-family: Avenir-Medium;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: right;
+  color: #051010;
+  text-transform: capitalize;
+}
+
+/* banking section styles start here */
+.section-bank-aproch {
+  margin-top: -55px;
+  height: 100vh;
+}
+.section-bank-aproch .banking-aproch {
+  width: 310.9px;
+  height: 575.3px;
+  object-fit: contain;
+}
+.section-bank-aproch .finin-card {
+  width: 353.2px;
+  height: 309.5px;
+  object-fit: contain;
+}
+.section-bank-aproch .heading-content h1 {
+  font-family: Avenir-Black;
+  font-size: 42px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.24;
+  letter-spacing: normal;
+  color: #1d1d1d;
+  padding-right: 20px;
+}
+.section-bank-aproch .heading-content p {
+  font-family: Avenir-Medium;
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #3c3c3c;
+}
+.section-bank-aproch .heading-content h2 {
+  font-family: Avenir-Heavy;
+  font-size: 22px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: left;
+  color: #051010;
+}
+.finin-title {
+  font-family: Avenir-Heavy;
+  font-size: 22px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: left;
+  color: #051010;
+}
+.join-email-input {
+  border-top-left-radius: 6px !important;
+  border-bottom-left-radius: 6px !important;
+  height: 56px;
+  font-size: 15px;
+}
+.banking-smarter {
+  background-color: #36e2a3;
+}
+.banking-smarter h2 {
+  margin-top: 95px;
+  font-family: Avenir-Black;
+  font-size: 46px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 58px;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.banking-smarter h2 span {
+  color: #1d1d1d;
+}
+
+.media-icon-box .image-box-outer {
+  width: 46px;
+  height: 46px;
+  border-radius: 6px;
+  background-color: #f8f8f8;
+}
+.media-icon-box .image-box-outer .image-box-inner {
+  display: block;
+  text-align: center;
+  line-height: 42px;
+}
+.media-icon-box .media-body {
+  font-family: Avenir-Medium;
+  font-size: 17px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: normal;
+  color: #3c3c3c;
+}
+.smarter-box {
+  margin-top: 60px;
+  padding: 15px 10px;
+  margin-bottom: 40px;
+}
+.smarter-box p {
+  margin-top: 25px;
+  font-family: Avenir-Medium;
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1d1d1d;
+}
+.smarter-box img {
+  width: 110px;
+  height: 99px;
+  object-fit: contain;
+}
+
+.manage-accounts {
+  margin: 80px 0px;
+}
+.manage-accounts .manage-account-content h2 {
+  font-family: Avenir-Black;
+  font-size: 46px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.46;
+  letter-spacing: normal;
+  text-transform: capitalize;
+  color: #36e2a3;
+}
+.manage-accounts .manage-account-content h3 {
+  font-family: Avenir-Heavy;
+  font-size: 32px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  color: #1d1d1d;
+}
+.manage-accounts .manage-account-content p {
+  font-family: Avenir-Roman;
+  font-size: 22px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: left;
+  color: #051010;
+}
+
+.manage-accounts .manage-account-image img {
+  width: 461.5px;
+  height: 383.8px;
+  object-fit: contain;
+}
+.manage-accounts .saving-hard-image img {
+  width: 441px;
+  height: 360.8px;
+  object-fit: contain;
+}
+.manage-accounts .saving-hard-content {
+  text-align: right;
+}
+.manage-accounts .saving-hard-content p {
+  text-align: right;
+}
+.manage-accounts .saving-ac {
+  padding-right: 0px;
+  padding-left: 35px;
+}
+
+/* About security section start here*/
+.about-security {
+  position: relative;
+  background-color: #ffe452;
+  padding: 90px 0px;
+}
+.about-security .security-content h3 {
+  font-family: Avenir-Black;
+  font-size: 46px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.26;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1d1d1d;
+}
+.about-security .security-content p {
+  font-family: Avenir;
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.42;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1d1d1d;
+}
+.about-security .security-tips {
+  padding-right: 70px;
+}
+.about-security .security-tips .media img {
+  width: 94px;
+  height: 88px;
+  object-fit: contain;
+}
+.about-security .security-tips h5 {
+  font-family: Avenir-Black;
+  font-size: 26px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.92;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1d1d1d;
+}
+.about-security .security-tips p {
+  font-family: Avenir-Roman;
+  font-size: 22px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1d1d1d;
+}
+/* About security section end here*/
+
+/* More store section start here*/
+.more-store {
+  margin: 90px 0px;
+}
+.more-store h2 {
+  font-family: Avenir-Black;
+  font-size: 46px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.26;
+  letter-spacing: normal;
+  text-align: left;
+  color: #051010;
+}
+/* More store section end here*/
+
+/* footer section start start here*/
+.footer {
+  background-color: #f7f7f7;
+}
+.footer .row {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.social-icons {
+  display: flex;
+  float: right;
+}
+@media (max-width: 768px) {
+  .footer .social-icons {
+    float: left;
+    margin-top: 40px;
+  }
+}
+.social-icons .icon-outer {
+  width: 30.7px;
+  height: 30.7px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  margin-right: 15px;
+}
+.social-icons .icon-outer img {
+  margin: auto;
+  display: block;
+  margin-top: 8px;
+}
+.footer .copyrighy-content {
+  /* font-family: Montserrat; */
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.67;
+  letter-spacing: normal;
+  text-align: right;
+  color: #3c3c3c;
+}
+.model-share-btns .logo-modal {
+  width: 97.2px;
+  height: 23.1px;
+  object-fit: contain;
+}
+.model-share-btns .modal-content {
+  border-radius: 18px;
+  border: solid 1px #707070;
+  background-color: #ffffff;
+}
+.model-share-btns .modal-header {
+  border-bottom: 0px solid #e9ecef;
+  padding: 28.4px 28.4px 0px 28.4px;
+}
+.model-share-btns .modal-header .close {
+  padding: 0rem;
+}
+.model-share-btns .modal-body {
+  padding: 22px 50px;
+}
+.model-share-btns .modal-body .intrest-para {
+  margin-top: 42px;
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.39;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1d1d1d;
+}
+.model-share-btns .modal-body h4 {
+  font-family: Avenir;
+  font-size: 28px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1d1d1d;
+}
+.model-share-btns .modal-body h4 strong {
+  font-family: Avenir-Black;
+}
+.model-share-btns .modal-body .modal-para2 {
+  font-family: Avenir-Roman;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: left;
+  color: #3c3c3c;
+}
+.model-share-btns .modal-body .modal-para3 {
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1d1d1d;
+}
+.model-share-btns .modal-icon {
+  width: 87px;
+  height: 98px;
+  object-fit: contain;
+  margin-top: -30px;
+}
+@media (max-width: 768px) {
+  .footer .copyrighy-content {
+    text-align: left;
+    padding-top: 50px;
+  }
+}
+.footer .policie-content p a {
+  height: 15px;
+  /* font-family: Montserrat; */
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #3c3c3c;
+}
+/* footer section start end here*/
+#st-2.st-has-labels .st-btn {
+  min-width: 90px !important;
+}
+#st-2 .st-btn:hover {
+  top: 0px !important;
+}
+#st-2 .st-btn > span {
+  max-width: 40px !important;
+  padding: 0 1px !important;
+  min-width: 10px !important;
+}
+#st-2 .st-btn {
+  margin-right: 5px !important;
+}
+
+#st-1 {
+  text-align: left !important;
+}
+#st-1.st-has-labels .st-btn {
+  min-width: 70px !important;
+}
+#st-1 .st-btn {
+  padding: 0px 4px !important;
+}
+@media (max-width: 768px) {
+  .container {
+    padding-left: 34px;
+    padding-right: 34px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .navbar_app .navbar-brand img {
+    padding-left: 34px;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 34px;
+    /* padding-left: 34px; */
+  }
+  .hidden-xs {
+    display: none !important;
+  }
+  .section-bank-aproch .heading-content {
+    margin-top: 0px;
+  }
+  .section-bank-aproch {
+    margin-top: 10px;
+    margin-bottom: 70px;
+  }
+  .section-bank-aproch .heading-content h1 {
+    font-size: 32px;
+  }
+  .section-bank-aproch .heading-content p {
+    font-size: 16px;
+  }
+  .form-xs {
+    display: block;
+  }
+  .form-xs .form-control {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+  .form-xs .btn-primary {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    width: 100%;
+  }
+  .join-email-input {
+    height: 42px;
+  }
+  .btn-primary {
+    height: 42px;
+  }
+  .finin-title {
+    margin-top: 35px;
+  }
+  .banking-smarter h2 {
+    margin-top: 40px;
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .smarter-box p {
+    font-size: 22px;
+  }
+  .manage-accounts .manage-account-content h2 {
+    font-size: 32px;
+  }
+  .manage-accounts .manage-account-content h3 {
+    font-size: 24px;
+  }
+  .manage-accounts .manage-account-content p {
+    font-size: 16px;
+  }
+  .about-security .security-content h3 {
+    font-size: 32px;
+  }
+  .about-security .security-content p {
+    font-size: 18px;
+  }
+  .about-security .security-tips {
+    margin-top: 70px;
+  }
+  .more-store h2 {
+    font-size: 28px;
+  }
+  .media-icon-box {
+    margin-top: 20px;
+  }
+  .smarter-box {
+    margin-top: 0px;
+    min-height: 270px;
+  }
+  .section-bank-aproch .mt-5,
+  .more-store .mt-5 {
+    margin-top: 1rem !important;
+  }
+  .section-bank-aproch {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    height: unset;
+  }
+  .store-img {
+    width: 280px;
+    height: 321.8px;
+    object-fit: contain;
+  }
+  .carousel-indicators {
+    bottom: -15px;
+  }
+  .manage-accounts .manage-account-image img {
+    width: 259px;
+    height: 215px;
+    object-fit: contain;
+  }
+  .manage-accounts .saving-hard-content {
+    text-align: left;
+  }
+  .manage-accounts .saving-hard-content p {
+    text-align: left;
+    padding-bottom: 20px;
+  }
+  .manage-accounts .saving-ac {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .mt100 {
+    margin-top: 70px;
+  }
+  .security-xs {
+    min-height: 400px;
+  }
+  .security-xs img {
+    width: 94px;
+    height: 88px;
+    object-fit: contain;
+  }
+  .security-xs h5 {
+    font-family: Avenir-Black;
+    font-size: 26px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.92;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1d1d1d;
+  }
+  .security-xs p {
+    font-family: Avenir-Roman;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1d1d1d;
+  }
+  .security-img {
+    width: 241.5px;
+    height: 209.1px;
+    object-fit: contain;
+  }
+  .model-share-btns .modal-body .intrest-para {
+    padding-right: 60px;
+  }
+  .model-share-btns .modal-icon {
+    margin-top: -60px;
+  }
+}
+@media (min-width: 768px) {
+  .hidden-sm-lg {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0rem;
+    padding-left: 0rem;
+  }
+}

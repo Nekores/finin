@@ -1,0 +1,115 @@
+.btn {
+  font-family: "ArchivoBold", sans-serif;
+  text-transform: uppercase;
+  height: 60px;
+  min-width: fit-content !important;
+  padding: 17px 19px;
+  line-height: 25px; /* 93.75% */
+  text-decoration: none;
+  img {
+    // border: 2px solid green;
+    padding-left: 10px;
+  }
+}
+
+.btn-fill {
+  border-radius: 40px;
+  background: linear-gradient(90deg, #097b0c 0%, #45cd47 100%);
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px; /* 93.75% */
+  text-transform: uppercase;
+  transition: 0.4s all ease-in-out;
+  border: none !important;
+  .arrowRightStyle {
+    padding-left: 25px;
+    position: relative;
+    top: -2px;
+    transition: 0.4s all ease-in-out;
+  }
+  &:hover {
+    background: linear-gradient(180deg, #097b0c 0%, #45cd47 100%);
+    border: 1px solid #45cd47;
+    color: white;
+    .arrowRightStyle {
+      // padding-left: 35px;
+    }
+  }
+}
+.btn-outline {
+  border-radius: 40px;
+  border: 1px solid #45cd47;
+  color: #000;
+  background-color: transparent;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px; /* 93.75% */
+  text-transform: uppercase;
+  transition: 0.4s all ease-in-out;
+  .arrowRightStyle {
+    transition: 0.4s all ease-in-out;
+    padding-left: 25px;
+    position: relative;
+    top: -2px;
+    right: 0px;
+  }
+  &:hover {
+    background-color: #45cd4735;
+    border: 1px solid #45cd47;
+    color: #45cd47;
+    .arrowRightStyle {
+      // padding-left: 35px;
+    }
+  }
+}
+
+.btn-nav_ {
+  border-radius: 100px;
+  border: 1px solid #45cd47;
+  font-size: 16px !important;
+  font-weight: 300 !important;
+  line-height: 19px;
+  padding: 13px 23px;
+  color: white;
+  font-family: "ArchivoLight", sans-serif;
+  text-decoration: none;
+  position: relative;
+  top: 5px;
+  transition: 0.4s all ease-in-out;
+  cursor: pointer;
+  &:hover {
+    background-color: #45cd4735;
+  }
+}
+
+.btn-outlined {
+  font-family: "ArchivoBold", sans-serif;
+  font-size: 12px;
+  padding: 10px 34px;
+}
+.btn-primary-fill {
+  background: linear-gradient(45deg, #075909, #45cd47);
+  color: black;
+  font-weight: 600;
+  position: relative;
+  padding-right: 49px;
+  img {
+    position: absolute;
+    right: 12px;
+  }
+}
+
+.btn-primary-outlined {
+  border: 1px solid #45cd47 !important;
+  color: black;
+  background-color: transparent !important;
+  font-weight: 600;
+  position: relative;
+  img {
+    position: absolute;
+    right: 12px;
+  }
+}

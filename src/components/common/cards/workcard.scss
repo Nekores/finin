@@ -1,0 +1,475 @@
+#workcardRoot {
+  max-width: 305px;
+  height: 400px;
+  margin: auto;
+  position: relative;
+  margin-bottom: 3rem;
+  @media (max-width: 575px) {
+    margin-bottom: 7.5rem;
+  }
+
+  .card {
+    height: 100%;
+    border-radius: 20px;
+    background: linear-gradient(100deg, #2c9c1b 3.57%, #71b520 91.07%);
+    padding-top: 17px;
+    transition: 0.4s all ease-in-out;
+    transform: scale(1);
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.04);
+      box-shadow: 11.768px 14.71px 29.42px 0px rgba(0, 0, 0, 0.266);
+    }
+    > img {
+      max-width: 210px;
+      width: 100%;
+      margin: auto;
+      position: absolute;
+      height: auto;
+      left: 0;
+      right: 0;
+      bottom: 80px;
+    }
+    .card-body {
+      padding: 25px;
+      background: #000;
+      border-radius: 20px;
+      padding-bottom: 32px;
+      max-height: 100px;
+      position: absolute;
+      width: 100%;
+      bottom: 0px;
+      .btn {
+        color: #45cd47;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 19px;
+        text-transform: uppercase;
+        padding: 8px 15.5px !important;
+        height: 45px;
+      }
+      .arrowRightStyle {
+        right: -7px;
+      }
+      ._amount {
+        color: #fff;
+        text-align: center;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        font-family: "ArchivoBold", sans-serif;
+        margin-bottom: 2px;
+        position: relative;
+        margin-top: -4px;
+        img {
+          position: absolute;
+          cursor: pointer;
+          &:hover {
+            background-color: #45cd47;
+            border-radius: 50%;
+          }
+        }
+        img._plus {
+          right: -2px;
+          top: 7px;
+          height: 30px;
+        }
+        img._minus {
+          left: -2px;
+          top: 7px;
+          height: 30px;
+        }
+      }
+      ._amount_title {
+        color: #fff;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        font-family: "ArchivoLight", sans-serif;
+        margin-bottom: 9px;
+      }
+    }
+    img {
+      margin: auto;
+    }
+  }
+  h3.workCard_title_root {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-size: 22px;
+    font-family: "ArchivoBold", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 26px;
+    span {
+      color: #45cd47;
+      font-family: "ArchivoMedium", sans-serif;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      padding-right: 20px;
+      margin-right: 20px;
+      border-right: 2px solid #f1f1f1;
+    }
+  }
+}
+
+#workcardRoot1 {
+  max-width: 305px;
+  margin: auto;
+  margin-bottom: 3rem;
+  .card {
+    border-radius: 20px;
+    background-image: url(/img/howitworks/a2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    // min-width: 305px;
+    height: 400px;
+    position: relative;
+    transition: 0.4s all ease-in-out;
+    transform: scale(1);
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.04);
+      box-shadow: 11.768px 14.71px 29.42px 0px rgba(0, 0, 0, 0.266);
+    }
+    .card-body {
+      padding: 21px 22px;
+      border-radius: 20px;
+      overflow: hidden;
+      background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 41.8%,
+        rgba(0, 0, 0, 0.7) 79.93%,
+        #000 100%
+      );
+    }
+
+    .bottom_area_ {
+      position: absolute;
+      bottom: 26px;
+      left: 13px;
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: space-between;
+      width: 100%;
+      img:nth-child(2) {
+        position: relative;
+        top: 21px;
+      }
+    }
+  }
+  h3.workCard_title_root {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-size: 22px;
+    font-family: "ArchivoBold", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 26px;
+    span {
+      color: #45cd47;
+      font-family: "ArchivoMedium", sans-serif;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      padding-right: 20px;
+      margin-right: 20px;
+      border-right: 2px solid #f1f1f1;
+    }
+  }
+}
+
+#workCardRoot2 {
+  max-width: 305px;
+  margin: auto;
+  margin-bottom: 3rem;
+
+  .card {
+    border-radius: 20px;
+    background: #438f29;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    // min-width: 305px;
+    height: 400px;
+    position: relative;
+    transition: 0.4s all ease-in-out;
+    transform: scale(1);
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.04);
+      box-shadow: 11.768px 14.71px 29.42px 0px rgba(0, 0, 0, 0.266);
+    }
+    position: relative;
+    overflow:hidden;
+    ._img_ {
+      img {
+        position: absolute;
+        top: -20px;
+        left: 0;
+        width: 109%;
+        margin: auto;
+        /* text-align: center; */
+        right: 0px;
+      }
+    }
+    .card-body {
+      padding: 21px 22px;
+      border-radius: 20px;
+      overflow: hidden;
+      background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 41.8%,
+        rgba(0, 0, 0, 0.7) 79.93%,
+        #000 100%
+      );
+      .btn {
+        position: absolute;
+        bottom: 31px;
+        left: 0;
+        right: 0;
+        width: 85%;
+        margin: auto;
+        height: 46px;
+        border-radius: 100px;
+        background: #000000;
+        border: none;
+        color: white;
+        padding: 9px;
+        padding-left: 28px;
+        text-align: left;
+        transition: 0.4s all ease-in-out;
+        border: 2px solid transparent;
+        img {
+          position: absolute;
+          top: 0;
+          right: 8px;
+          bottom: 0;
+          margin: auto;
+        }
+        &:hover {
+          background-color: #191919;
+          border-color: #45cd47;
+        }
+      }
+    }
+    .you_got_paid {
+      height: 100%;
+      h4 {
+        color: #fff;
+        font-family: "ArchivoMedium", sans-serif;
+        text-align: center;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: uppercase;
+        max-width: 350px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        top: 0px;
+      }
+    }
+  }
+
+  h3.workCard_title_root {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-size: 22px;
+    font-family: "ArchivoBold", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 26px;
+    span {
+      color: #45cd47;
+      font-family: "ArchivoMedium", sans-serif;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      padding-right: 20px;
+      margin-right: 20px;
+      border-right: 2px solid #f1f1f1;
+    }
+  }
+}
+
+#workcardRoot3 {
+  position: relative;
+  max-width: 305px;
+  margin: auto;
+  margin-bottom: 3rem;
+
+  .card {
+    border-radius: 20px;
+    background-image: url(/img/howitworks/a2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    position: relative;
+    transition: 0.4s all ease-in-out;
+    transform: scale(1);
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.04);
+      box-shadow: 11.768px 14.71px 29.42px 0px rgba(0, 0, 0, 0.266);
+    }
+    ._fly_text {
+      z-index: 1;
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-items: center;
+      left: 0;
+      right: 0;
+      bottom: 93px;
+      color: white;
+      img {
+        width: 35px;
+      }
+      h4 {
+        color: #fff;
+        text-align: center;
+        font-family: "InterLight", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        margin-bottom: -4px;
+      }
+      h3 {
+        color: #fff;
+        font-family: "InterMedium", sans-serif;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px;
+        margin-bottom: 12px;
+      }
+      h5 {
+        color: #fff;
+        letter-spacing: 0.1px;
+        text-align: center;
+        font-family: "InterLight", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+    ._root-Card {
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      opacity: 0.6;
+      border-radius: 20px;
+
+      background: linear-gradient(100deg, #2c9c1b 3.57%, #71b520 91.07%);
+    }
+    .card-body {
+      padding: 21px 22px;
+      border-radius: 20px;
+      overflow: hidden;
+      background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 41.8%,
+        rgba(0, 0, 0, 0.7) 79.93%,
+        #000 100%
+      );
+    }
+
+    .bottom_area_ {
+      position: absolute;
+      bottom: 26px;
+      left: 13px;
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: space-between;
+      width: 100%;
+      img:nth-child(2) {
+        position: relative;
+        top: 21px;
+      }
+    }
+  }
+  h3.workCard_title_root {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-size: 22px;
+    font-family: "ArchivoBold", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 26px;
+    span {
+      color: #45cd47;
+      font-family: "ArchivoMedium", sans-serif;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      padding-right: 20px;
+      margin-right: 20px;
+      border-right: 2px solid #f1f1f1;
+    }
+  }
+
+  .btn {
+    position: absolute;
+    bottom: 31px;
+    left: 0;
+    right: 0;
+    width: 85%;
+    margin: auto;
+    height: 46px;
+    border-radius: 100px;
+    background: #000000;
+    border: none;
+    color: white;
+    padding: 9px;
+    padding-left: 28px;
+    text-align: left;
+    transition: 0.4s all ease-in-out;
+    border: 2px solid transparent;
+    img {
+      position: absolute;
+      top: 0;
+      right: 8px;
+      bottom: 0;
+      margin: auto;
+    }
+    &:hover {
+      background-color: #191919;
+      border-color: #45cd47;
+    }
+  }
+}

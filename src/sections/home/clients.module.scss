@@ -1,0 +1,19 @@
+.clients_section_root {
+  background-color: #0c0c0c;
+  position: relative;
+  padding: 12.5px 0px;
+  .slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    img {
+      max-width: 100%;
+      max-height: 100px;
+      margin: auto;
+      min-height: 35px;
+      max-height: 35px;
+      height: 35px;
+    }
+  }
+}

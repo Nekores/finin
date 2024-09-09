@@ -1,0 +1,73 @@
+.athlete-card-root {
+  @media (max-width: 575px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  ._img-area {
+    position: relative;
+    transition: 0.4s all ease-in-out;
+    transform: scale(1);
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.04);
+      box-shadow: 11.768px 14.71px 29.42px 0px rgba(0, 0, 0, 0.266);
+    }
+    img {
+      border-radius: 6px 40px 40px 40px;
+    }
+    margin-bottom: 26px;
+  }
+  ._card-body {
+    h3 {
+      color: #fff;
+
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      font-family: "ArchivoBold", sans-serif;
+      margin-bottom: 4px;
+    }
+    h4 {
+      color: #fff;
+      font-size: 16px;
+      font-style: normal;
+      font-family: "ArchivoLight", sans-serif;
+      font-weight: 400;
+      line-height: 25px;
+      margin-bottom: -1px;
+      letter-spacing: 0.1px;
+    }
+    p {
+      color: #8b8b8b;
+      font-family: "ArchivoMedium", sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 25px;
+      letter-spacing: -0.9px;
+    }
+  }
+  .btn {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 33px;
+    height: 45px;
+    padding: 9px 4px !important;
+    margin: auto;
+    width: 203px;
+    padding-right: 40px !important;
+    img {
+      padding-left: p;
+      position: absolute;
+      right: 12px;
+      top: 0px;
+      bottom: 0;
+      margin: auto;
+    }
+  }
+}

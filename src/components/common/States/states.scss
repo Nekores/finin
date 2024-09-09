@@ -1,0 +1,38 @@
+.data-unit-root {
+  border: 1px solid #45cd47;
+  border-left: 0;
+  border-right: 0;
+  gap: 52px;
+  padding-top: 12px;
+  padding-bottom: 10px;
+
+  @media (max-width: 575px) {
+    gap: 28px;
+    justify-content: space-around;
+  }
+  h2 {
+    font-family: "ArchivoBold", sans-serif;
+    color: #000;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 100% */
+  }
+  p {
+    color: #000;
+    margin-bottom: 18px;
+    font-family: "ArchivoMedium", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19px; /* 105.556% */
+    position: relative;
+    top: 13px;
+  }
+
+  @media (max-width: 450px) {
+    h2 {
+      font-size: 33px;
+    }
+  }
+}

@@ -1,0 +1,54 @@
+.peace_of_mind_root {
+  padding: 55px 0px;
+  padding-bottom: 95px;
+  background-image: url(/img/details/peacemindBg.png);
+  background-position: top center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .section-title {
+    h2 {
+      margin-bottom: 17px !important;
+    }
+    p._desc {
+      color: #000;
+      font-family: "InterExtraLight", sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 26px;
+    }
+  }
+  ._card_root {
+    width: 100%;
+  }
+}
+
+.box-card-root {
+  box-shadow: 0px 4px 23px rgba(0, 0, 0, 0.12);
+  //   max-width: 280px;
+  border-radius: 20px;
+  background-color: white;
+  padding: 32px 35px;
+  padding-bottom: 20px;
+  ._card_body {
+    h4 {
+      color: #45cd47;
+      font-family: "ArchivoBold", sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      margin-top: 11px;
+      margin-bottom: 6px;
+    }
+    p {
+      color: #000;
+      font-family: "InterRegular", sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+}

@@ -1,0 +1,92 @@
+/* Archivo Font */
+@font-face {
+  font-family: "ArchivoBlack";
+  src: url("./../../public/fonts/titles/Archivo_SemiExpanded-Black.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "ArchivoExtraBold";
+  src: url("./../../public/fonts/titles/Archivo_SemiExpanded-ExtraBold.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "ArchivoBold";
+  src: url("./../../public/fonts/titles/Archivo_SemiExpanded-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "ArchivoSemiBold";
+  src: url("./../../public/fonts/titles/Archivo_SemiExpanded-SemiBold.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "ArchivoMedium";
+  src: url("./../../public/fonts/titles/Archivo_SemiExpanded-Medium.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "ArchivoRegular";
+  src: url("./../../public/fonts/titles/Archivo_SemiExpanded-Regular.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "ArchivoLight";
+  src: url("./../../public/fonts/titles/Archivo_SemiExpanded-Light.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "ArchivoExtraLight";
+  src: url("./../../public/fonts/titles/Archivo_SemiExpanded-ExtraLight.ttf")
+    format("truetype");
+}
+
+/* Inter Font */
+
+@font-face {
+  font-family: "InterBlack";
+  src: url("./../../public/fonts/bodyText/Inter-Black-slnt=0.ttf") format("truetype");
+}
+@font-face {
+  font-family: "InterExtraBold";
+  src: url("./../../public/fonts/bodyText/Inter-ExtraBold-slnt=0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "InterBold";
+  src: url("./../../public/fonts/bodyText/Inter-Bold-slnt=0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "InterSemiBold";
+  src: url("./../../public/fonts/bodyText/Inter-SemiBold-slnt=0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "InterMediumt";
+  src: url("./../../public/fonts/bodyText/Inter-Medium-slnt=0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "InterRegular";
+  src: url("./../../public/fonts/bodyText/Inter-Regular-slnt=0.ttf") format("truetype");
+}
+@font-face {
+  font-family: "InterLight";
+  src: url("./../../public/fonts/bodyText/Inter-Light-slnt=0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "InterExtraLight";
+  src: url("./../../public/fonts/bodyText/Inter-ExtraLight-slnt=0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "InterThin";
+  src: url("./../../public/fonts/bodyText/Inter-Thin-slnt=0.ttf") format("truetype");
+}

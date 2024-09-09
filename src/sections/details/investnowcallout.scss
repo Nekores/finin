@@ -1,0 +1,157 @@
+.invest-now-callout-root {
+  background-color: #020703;
+  background-image: url(/img/details/investCalloutBg.svg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center 114px;
+  padding-top: 134px;
+  background-attachment: fixed;
+  h2 {
+    color: #fff;
+    text-align: center;
+    font-family: "ArchivoBlack", sans-serif;
+    font-size: 149.685px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+    position: relative;
+    ._logo {
+      position: absolute;
+      left: 80px;
+      top: 139px;
+    }
+  }
+  ._main-content {
+    position: relative;
+    > img {
+      position: relative;
+      top: -110px;
+      right: -18px;
+      animation: moveLeftRight 3s ease-in-out infinite;
+    }
+    button {
+      position: absolute;
+      top: 47%;
+      right: 35px;
+      color: #000;
+      font-family: "ArchivoBold", sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 22.865px;
+      text-transform: uppercase;
+      display: flex;
+      gap: 7px;
+      border-radius: 50px;
+      background-color: #45cd47;
+      padding: 15px 35px;
+      border: none;
+      @media (max-width: 1399px) {
+        top: 70%;
+      }
+      @media (max-width: 767px) {
+        bottom: 10px;
+        top: auto;
+        right: 10px;
+      }
+
+      @media (max-width: 575px) {
+        font-size: 13px;
+        line-height: 20.87px;
+        padding: 12px 18px;
+        padding-bottom: 8px;
+      }
+    }
+  }
+
+  @media (max-width: 1399px) {
+    h2 {
+      font-size: 8rem;
+      ._logo {
+        left: 70px;
+        top: 116px;
+      }
+    }
+
+    ._main-content {
+      > img {
+        top: -60px;
+      }
+    }
+  }
+
+  @media (max-width: 1200px) {
+    h2 {
+      font-size: 7rem;
+      ._logo {
+        left: 40px;
+      }
+    }
+  }
+
+  @media (max-width: 992px) {
+    ._logo {
+      left: 10px !important;
+      top: 78px !important;
+      max-width: 195px;
+    }
+    ._main-content {
+      > img {
+        width: 70%;
+        top: -60px;
+      }
+    }
+    h2 {
+      font-size: 5.5rem;
+    }
+  }
+
+  @media (max-width: 767px) {
+    padding-top: 74px;
+    h2 {
+      font-size: 4rem;
+    }
+    ._main-content {
+      > img {
+        top: -40px;
+      }
+    }
+  }
+  @media (max-width: 575px) {
+    padding-top: 54px;
+    padding-bottom: 25px;
+    background-size: contain;
+    h2 {
+      font-size: 42px;
+      text-align: left;
+      ._logo {
+        left: 0px !important;
+        right: 0px !important;
+        top: 45px !important;
+        max-width: 140px;
+      }
+    }
+    ._main-content {
+      > img {
+        position: relative;
+        top: -12px;
+        right: 0px;
+        width: 90%;
+        transform: rotate(3deg);
+      }
+    }
+  }
+
+  @keyframes moveLeftRight {
+    0% {
+      transform: rotate(3deg);
+    }
+    50% {
+      transform: rotate(6deg);
+    }
+    100% {
+      transform: rotate(3deg);
+    }
+  }
+}

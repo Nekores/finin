@@ -1,0 +1,27 @@
+#howitworks {
+  background: #f1f1f1;
+  &::before {
+    background-image: url(/img/howitworks/bg.png);
+  }
+  // > div > div > div {
+  //   h2 {
+  //     color: white;
+  //     span {
+  //       color: white;
+  //     }
+  //   }
+  //   p {
+  //     color: white;
+  //   }
+  // }
+  // #workcardRoot,
+  // #workcardRoot3,
+  // #workCardRoot2 {
+  //   h3 {
+  //     color: white;
+  //     span {
+  //       color: white;
+  //     }
+  //   }
+  // }
+}

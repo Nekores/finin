@@ -1,0 +1,39 @@
+#feed-section-root {
+  background-image: url(/img/feed/bg.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100%;
+  padding-bottom: 115px;
+  overflow: hidden;
+  @media (max-width: 768px) {
+    padding-bottom: 75px;
+    > div > div > div > div {
+      margin-bottom: -30px !important;
+      margin-top: 42px !important;
+    }
+  }
+  .section-heading-root {
+    margin-bottom: 22px;
+    h2 {
+      margin-top: 89px;
+    }
+  }
+  ._theme_radio {
+    margin-right: 20px;
+  }
+  ._list-card-root {
+    margin-top: 48px;
+  }
+  .feed-card-root {
+    margin-bottom: 25px;
+  }
+  @media (max-width: 768px) {
+    h2 {
+      text-align: left !important;
+    }
+    .desc_ {
+      text-align: left;
+    }
+  }
+}

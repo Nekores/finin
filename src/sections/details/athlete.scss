@@ -1,0 +1,211 @@
+#athleteSection-detailspage {
+  overflow: hidden;
+  padding-top: 3.3rem;
+  padding-bottom: 35px;
+  background-color: #ffff;
+  ._table_source_text {
+    color: #000;
+    font-family: "InterRegular", sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  .table_root {
+    @media (max-width: 792px) {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      table {
+        box-shadow: none;
+      }
+    }
+  }
+  table {
+    margin-top: 48px;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 1;
+    border-radius: 20px !important;
+    overflow: hidden;
+    box-shadow: 0px 6.206px 46.543px rgba(0, 0, 0, 0.2);
+    @media (max-width: 535px) {
+      margin-top: 0;
+    }
+    tr:last-child td {
+      background-color: #ddffde;
+      padding-bottom: 22px;
+    }
+
+    tr {
+      td:nth-child(1) {
+        border-right: 1px solid #dee2e6;
+      }
+      td {
+        color: #000;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 15.514px;
+        font-family: "ArchivoLight", sans-serif;
+        padding: 18px;
+      }
+      th {
+        background: #0a243d !important;
+        color: #fff;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 15.514px;
+        text-transform: uppercase;
+        font-family: "ArchivoLight", sans-serif;
+        padding-top: 24px !important;
+        padding-bottom: 10px !important;
+      }
+      tr:nth-child(1) {
+        th:nth-child(1) {
+          border-radius: 15px 0px 0px 0px;
+        }
+        th:last-child {
+          border-radius: 0px 15px 0px 0px;
+        }
+      }
+    }
+
+    tr:last-child {
+      td:nth-child(1) {
+        border-radius: 0px 0px 0px 15px;
+      }
+      td:last-child {
+        border-radius: 0px 0px 15px 0px;
+      }
+    }
+  }
+  .btn {
+    max-width: 255px;
+    img {
+      padding-left: 68px;
+    }
+  }
+  .btn-outline {
+    img {
+      padding-left: 48px;
+    }
+  }
+  .img_player {
+    position: absolute;
+    top: 0px;
+    right: -82px;
+    top: -24px;
+    transform: rotate(0deg);
+    animation: moveLeftRight__ 3s ease-in-out infinite;
+    z-index: 0;
+    @media (max-width: 1200px) {
+      height: 80%;
+    }
+    @media (max-width: 992px) {
+      height: 72%;
+      top: 110px;
+      right: -100px;
+    }
+    @media (max-width: 768px) {
+      height: 52%;
+      top: 140px;
+      right: -110px;
+    }
+    @media (max-width: 575px) {
+      height: 40%;
+      top: 27%;
+      right: 0px;
+    }
+    @media (max-width: 403px) {
+      height: 31%;
+      top: 27%;
+      right: 0px;
+    }
+  }
+  @media (max-width: 768px) {
+    padding-top: 0.6rem;
+    padding-bottom: 1px;
+    margin-bottom: -30px;
+    .label {
+      margin-bottom: 15px !important;
+    }
+  }
+  .data-unit-root {
+    width: 100%;
+    max-width: 100% !important;
+  }
+  //   .more_details_style::after {
+  //     content: url(/img/details/sc1.png);
+  //     position: absolute;
+  //     right: 0;
+  //     top: 0;
+  //   }
+  .more_details_style {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-family: "ArchivoBold", sans-serif;
+    font-weight: 500;
+    line-height: 35px; /* 194.444% */
+    position: relative;
+    p {
+      margin-top: -1px;
+      margin-bottom: -1px;
+      @media (max-width: 1199px) {
+        margin-top: 0px;
+        margin-bottom: 11px;
+        line-height: 24px;
+      }
+    }
+  }
+  .btn-fill {
+    @media (min-width: 768px) {
+      img {
+        padding-left: 62px;
+      }
+    }
+  }
+  .btn-outline {
+    @media (min-width: 768px) {
+      img {
+        padding-left: 45px;
+      }
+    }
+  }
+
+  .athlete_details_root {
+    max-width: 705px;
+    hr {
+      border: none;
+      opacity: 1;
+      border-bottom: 1px solid #45cd47;
+      margin-top: 13px;
+      margin-bottom: 19px;
+    }
+  }
+  .athlete_details_button_group {
+    margin-top: 2rem;
+    @media (max-width: 535px) {
+      flex-direction: column;
+      align-items: stretch;
+      margin-bottom: 50px;
+      justify-content: space-around;
+      position: relative;
+      z-index: 1;
+      flex-wrap: wrap;
+    }
+  }
+
+  @keyframes moveLeftRight__ {
+    0% {
+      transform: rotate(3deg);
+    }
+    50% {
+      transform: rotate(6deg);
+    }
+    100% {
+      transform: rotate(3deg);
+    }
+  }
+}

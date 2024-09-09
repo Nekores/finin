@@ -1,0 +1,76 @@
+#athletes-section-root {
+  background-color: black;
+  padding-bottom: 52px;
+  position: relative;
+  @media (max-width: 768px) {
+    padding-bottom: 30px;
+  }
+  @media (max-width: 575px) {
+    padding-bottom: 0px;
+  }
+
+  &::before {
+    content: "";
+    background-image: url(/img/athletes/bg.png);
+    position: absolute;
+    left: 0;
+    top: 0px;
+    background-position: right top;
+    background-repeat: no-repeat;
+    min-height: calc(100vh - 270px);
+    background-size: auto;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    @media (max-width: 768px) {
+      opacity: 0.6;
+    }
+  }
+  > .container {
+    position: relative;
+  }
+  .section-heading-root {
+    margin-bottom: 22px;
+    h2 {
+      margin-top: 89px;
+      color: white;
+      @media (max-width: 768px) {
+        margin-top: 55px;
+      }
+      @media (max-width: 575px) {
+        text-align: center;
+      }
+    }
+  }
+  ._theme_radio {
+    margin-right: 8px;
+  }
+  ._list-card-root {
+    margin-top: 48px;
+    @media (max-width: 575px) {
+      div:last-child > .athlete-card-root {
+        margin: 0px;
+      }
+    }
+  }
+
+  .card_group {
+    @media (max-width: 575px) {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+    }
+  }
+  @media (max-width: 768px) {
+    .card_group {
+      margin-bottom: -12px;
+      gap: 3px;
+      ._theme_radio {
+        margin-right: 0px;
+      }
+    }
+  }
+}

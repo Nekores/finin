@@ -1,0 +1,72 @@
+#athleteSection {
+  padding-top: 3.3rem;
+  padding-bottom: 35px;
+  background-color: #f1f1f1;
+  @media (max-width: 768px) {
+    overflow: hidden;
+    padding-top: 0.6rem;
+    padding-bottom: 1px;
+    margin-bottom: -30px;
+
+    .label {
+      margin-bottom: 15px !important;
+    }
+  }
+  @media (max-width: 575px) {
+    padding: 0px 20px;
+  }
+  .more_details_style {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+
+    line-height: 35px; /* 194.444% */
+    p {
+      margin-top: -1px;
+      margin-bottom: -1px;
+      font-family: "ArchivoBold", sans-serif;
+      font-weight: 500;
+      @media (max-width: 1199px) {
+        margin-top: 0px;
+        margin-bottom: 11px;
+        line-height: 24px;
+      }
+    }
+  }
+  .btn-fill {
+    @media (min-width: 768px) {
+      img {
+        padding-left: 62px;
+      }
+    }
+  }
+  .btn-outline {
+    @media (min-width: 768px) {
+      img {
+        padding-left: 45px;
+      }
+    }
+  }
+
+  .athlete_details_root {
+    max-width: 552px;
+    hr {
+      border: none;
+      opacity: 1;
+      border-bottom: 1px solid #45cd47;
+      margin-top: 13px;
+      margin-bottom: 19px;
+    }
+  }
+  .athlete_details_button_group {
+    margin-top: 1rem;
+    @media (max-width: 535px) {
+      flex-direction: column;
+      align-items: stretch;
+      margin-bottom: 50px;
+      justify-content: space-around;
+      align-content: flex-start;
+      flex-wrap: wrap;
+    }
+  }
+}

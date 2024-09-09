@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@import url("./fonts.css");
+
+/* @media (min-width: 1500px) {
+  .container {
+    max-width: 1450px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1550px;
+  }
+}
+
+@media (min-width: 1700px) {
+  .container {
+    max-width: 1650px;
+  }
+}
+@media (min-width: 1800px) {
+  .container {
+    max-width: 1750px;
+  }
+}
+@media (min-width: 1900px) {
+  .container {
+    max-width: 1850px;
+  }
+}
+
+@media (min-width: 2000px) {
+  .container {
+    max-width: 1920px;
+  }
+} */
+
+/* nextjs-portal {
+  display: none;
+} */

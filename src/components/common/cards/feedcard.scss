@@ -1,0 +1,91 @@
+.feed-card-root {
+  min-width: 205px;
+  height: 100%;
+  @media (max-width: 992px) {
+    margin: auto;
+    margin-bottom: 25px;
+  }
+  position: relative;
+  border-radius: 29.42px;
+  background: #fff;
+  box-shadow: 11.768px 14.71px 29.42px 0px rgba(0, 0, 0, 0.1);
+  // max-width: 275px;
+  width: 100%;
+  padding: 30px;
+  min-height: 280px;
+  margin-bottom: 10px;
+  transition: 0.4s all ease-in-out;
+  transform: scale(1);
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.04);
+    box-shadow: 11.768px 14.71px 29.42px 0px rgba(0, 0, 0, 0.159);
+  }
+  &::before {
+    content: url(/img/feed/quotesIcon.svg);
+    position: absolute;
+    right: 23px;
+    top: 25px;
+  }
+  ._card-body {
+    margin-top: 23px;
+    padding: 0px;
+    margin-bottom: 55px;
+    p {
+      color: #000;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 27px;
+      letter-spacing: 0.4px;
+
+      font-family: "ArchivoRegular", sans-serif;
+      @media (max-width: 575px) {
+        padding-top: 10px;
+        line-height: 27px;
+        letter-spacing: 0.4px;
+      }
+    }
+  }
+  ._card-footer {
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+    gap: 18px;
+    padding: 0px 5px;
+    display: flex;
+    align-items: center;
+    h4 {
+      color: #000;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 15px;
+      margin: 0;
+      letter-spacing: 0.6px;
+    }
+    p {
+      color: #a7a7a7;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 15px;
+      margin: 0;
+      letter-spacing: 0.4px;
+    }
+    span {
+      color: #000;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      background: #bcedbd;
+      height: 38.25px;
+      width: 38.25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50px;
+    }
+  }
+}

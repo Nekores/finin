@@ -1,0 +1,41 @@
+._custom_video_player {
+  max-width: 1314px;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-top: 40px;
+  .video-container {
+    position: relative;
+    width: 100%;
+    min-width: 100%;
+    max-width: 800px;
+    margin: auto;
+    cursor: pointer;
+  }
+
+  .video-element {
+    display: block;
+    width: 100%;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+  }
+
+  .play-button {
+    font-size: 60px;
+    color: #4caf50;
+  }
+
+  .hide-overlay {
+    cursor: pointer;
+  }
+}

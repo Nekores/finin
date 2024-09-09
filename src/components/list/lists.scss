@@ -1,0 +1,36 @@
+.lists_theme_v1 {
+  margin-top: 15px;
+  ul {
+    padding: 0;
+    margin: 0;
+    li {
+      border: none;
+      color: #000;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 34px;
+      padding: 0;
+      background-color: transparent;
+      font-family: "ArchivoBold", sans-serif;
+    }
+    .list-group-item:first-child {
+      font-family: "ArchivoExtraLight", sans-serif;
+      min-width: 174px;
+    }
+    .list-group-item:nth-child(2) {
+      font-weight: 500;
+    }
+    @media (max-width: 575px) {
+      flex-direction: column;
+      li:nth-child(1) {
+        margin-bottom: -2px;
+        margin-top: 7px;
+      }
+      li:nth-child(2) {
+        font-weight: 500;
+        line-height: 21px;
+      }
+    }
+  }
+}

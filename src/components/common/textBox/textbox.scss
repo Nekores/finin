@@ -1,0 +1,43 @@
+.textBox_1_Root {
+  width: 100%;
+  // height: 142px;
+  // height: 142px;
+  border: 1.773px solid #45cd47;
+  background-color: rgba(69, 205, 71, 0.1);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 42px 23px;
+  margin-bottom: 25px;
+  transition: 0.4s all ease-in-out;
+  transform: scale(1);
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.04);
+    box-shadow: 11.768px 14.71px 29.42px 0px rgba(0, 0, 0, 0.266);
+  }
+  h4 {
+    color: #fafafa;
+    text-align: center;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0px;
+    font-family: "ArchivoBold", sans-serif;
+    margin-bottom: 20px;
+    margin-top: 13px;
+  }
+  p {
+    color: #fafafa;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    font-family: "ArchivoExtraLight", sans-serif;
+    margin: 0;
+    width: 100%;
+    line-height: 22px;
+  }
+}

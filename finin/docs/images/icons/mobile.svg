@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17.179" height="27.71" viewBox="0 0 17.179 27.71">
+    <g id="prefix__Group_6606" data-name="Group 6606" transform="translate(-692.118 -867.145)">
+        <g id="prefix__smartphone" transform="translate(594.826 867.145)">
+            <g id="prefix__Group_6577" data-name="Group 6577" transform="translate(97.292)">
+                <g id="prefix__Group_6576" data-name="Group 6576">
+                    <path id="prefix__Path_3961" d="M111.98 0h-12.2a2.494 2.494 0 0 0-2.491 2.491v22.728a2.494 2.494 0 0 0 2.491 2.491h12.2a2.494 2.494 0 0 0 2.491-2.491V2.491A2.494 2.494 0 0 0 111.98 0zM98.916 2.491a.868.868 0 0 1 .867-.867h12.2a.868.868 0 0 1 .867.867v1.6H98.916zm13.931 22.728a.868.868 0 0 1-.867.867h-12.2a.868.868 0 0 1-.867-.867v-2.075h13.931zm0-3.7H98.916V5.717h13.931z" data-name="Path 3961" transform="translate(-97.292)"/>
+                </g>
+            </g>
+            <g id="prefix__Group_6579" data-name="Group 6579" transform="translate(105.207 23.908)">
+                <g id="prefix__Group_6578" data-name="Group 6578">
+                    <path id="prefix__Rectangle_2669" d="M0 0H1.597V1.597H0z" data-name="Rectangle 2669" style="fill:#fd6060"/>
+                </g>
+            </g>
+        </g>
+        <path id="prefix__Path_3967" d="M2329.458 1089.235l1.173 1.066-5.078 5.58-3.354-3.244 1.1-1.14 2.179 2.108z" data-name="Path 3967" transform="translate(-1625.249 -211.485)" style="fill:#36e2a3"/>
+    </g>
+</svg>

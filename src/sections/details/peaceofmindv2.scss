@@ -1,0 +1,35 @@
+.peace_of_mind_root_2 {
+  padding: 55px 0px;
+  padding-bottom: 95px;
+  @media (max-width: 767px) {
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+  .section-title {
+    h2 {
+      margin-bottom: 17px !important;
+    }
+    p._desc {
+      color: #000;
+      font-family: "InterExtraLight", sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 28px;
+      @media (max-width: 767px) {
+        font-size: 18px;
+        font-family: "InterLight", sans-serif;
+        font-weight: 400;
+      }
+    }
+  }
+  ._card_root {
+    width: 100%;
+  }
+  img {
+    margin: 40px 0px;
+    @media (max-width: 1200px) {
+      width: 100%;
+    }
+  }
+}

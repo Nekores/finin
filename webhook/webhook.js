@@ -25,7 +25,7 @@ app.post('/webhook', (req, res) => {
   }
 
   // If the request is valid and from the main branch, pull the latest code
-  exec('cd /var/www/html && git pull origin main', (error, stdout, stderr) => {
+  exec('cd /var/www/html/finin && git pull origin main', (error, stdout, stderr) => {
     if (error) {
       console.error(`Error pulling code: ${stderr}`);
       return res.status(500).send('Error pulling code');
